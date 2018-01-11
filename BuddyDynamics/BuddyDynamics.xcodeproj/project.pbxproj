@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6AD9DF89B1DA701744325F8 /* libPods-BuddyDynamics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0E2729120601B5FC0F0EE2 /* libPods-BuddyDynamics.a */; };
+		EE439EE22006033600C6D39E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE439EE12006033600C6D39E /* AppDelegate.m */; };
+		EE439EE52006033600C6D39E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE439EE42006033600C6D39E /* ViewController.m */; };
+		EE439EEA2006033600C6D39E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE439EE92006033600C6D39E /* Assets.xcassets */; };
+		EE439EED2006033600C6D39E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE439EEB2006033600C6D39E /* LaunchScreen.storyboard */; };
+		EE439EF02006033600C6D39E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE439EEF2006033600C6D39E /* main.m */; };
+		EE439F0F200605E500C6D39E /* format-10.json in Resources */ = {isa = PBXBuildFile; fileRef = EE439F00200605E300C6D39E /* format-10.json */; };
+		EE439F10200605E500C6D39E /* format-6.json in Resources */ = {isa = PBXBuildFile; fileRef = EE439F01200605E300C6D39E /* format-6.json */; };
+		EE439F11200605E500C6D39E /* format-13.json in Resources */ = {isa = PBXBuildFile; fileRef = EE439F02200605E300C6D39E /* format-13.json */; };
+		EE439F12200605E500C6D39E /* format-4.json in Resources */ = {isa = PBXBuildFile; fileRef = EE439F03200605E400C6D39E /* format-4.json */; };
+		EE439F13200605E500C6D39E /* format-9.json in Resources */ = {isa = PBXBuildFile; fileRef = EE439F04200605E400C6D39E /* format-9.json */; };
+		EE439F14200605E500C6D39E /* format-7.json in Resources */ = {isa = PBXBuildFile; fileRef = EE439F05200605E400C6D39E /* format-7.json */; };
+		EE439F15200605E500C6D39E /* format-14.json in Resources */ = {isa = PBXBuildFile; fileRef = EE439F06200605E400C6D39E /* format-14.json */; };
+		EE439F16200605E500C6D39E /* format-1.json in Resources */ = {isa = PBXBuildFile; fileRef = EE439F07200605E400C6D39E /* format-1.json */; };
+		EE439F17200605E500C6D39E /* format-2.json in Resources */ = {isa = PBXBuildFile; fileRef = EE439F08200605E400C6D39E /* format-2.json */; };
+		EE439F18200605E500C6D39E /* format-8.json in Resources */ = {isa = PBXBuildFile; fileRef = EE439F09200605E400C6D39E /* format-8.json */; };
+		EE439F19200605E500C6D39E /* format-5.json in Resources */ = {isa = PBXBuildFile; fileRef = EE439F0A200605E400C6D39E /* format-5.json */; };
+		EE439F1A200605E500C6D39E /* format-12.json in Resources */ = {isa = PBXBuildFile; fileRef = EE439F0B200605E400C6D39E /* format-12.json */; };
+		EE439F1B200605E500C6D39E /* format-3.json in Resources */ = {isa = PBXBuildFile; fileRef = EE439F0C200605E400C6D39E /* format-3.json */; };
+		EE439F1C200605E500C6D39E /* format-11.json in Resources */ = {isa = PBXBuildFile; fileRef = EE439F0D200605E400C6D39E /* format-11.json */; };
+		EE439F1D200605E500C6D39E /* format-15.json in Resources */ = {isa = PBXBuildFile; fileRef = EE439F0E200605E400C6D39E /* format-15.json */; };
+		EE439F2020060A4D00C6D39E /* BDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE439F1F20060A4D00C6D39E /* BDTableViewCell.m */; };
+		EE439F2320060A7A00C6D39E /* BDModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE439F2220060A7A00C6D39E /* BDModel.m */; };
+		EE439F252006168600C6D39E /* BDTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE439F242006168600C6D39E /* BDTableViewCell.xib */; };
+		EE44A42520070F9600A7461D /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE44A42420070F9600A7461D /* YYFPSLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E0E2729120601B5FC0F0EE2 /* libPods-BuddyDynamics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuddyDynamics.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA43D05AC670E5B832F9FB05 /* Pods-BuddyDynamics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyDynamics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuddyDynamics/Pods-BuddyDynamics.debug.xcconfig"; sourceTree = "<group>"; };
+		E9D1DA49ACA2F407ECD627CC /* Pods-BuddyDynamics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyDynamics.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuddyDynamics/Pods-BuddyDynamics.release.xcconfig"; sourceTree = "<group>"; };
+		EE439EDD2006033600C6D39E /* BuddyDynamics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuddyDynamics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE439EE02006033600C6D39E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE439EE12006033600C6D39E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE439EE32006033600C6D39E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE439EE42006033600C6D39E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE439EE92006033600C6D39E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE439EEC2006033600C6D39E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE439EEE2006033600C6D39E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE439EEF2006033600C6D39E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE439F00200605E300C6D39E /* format-10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "format-10.json"; sourceTree = "<group>"; };
+		EE439F01200605E300C6D39E /* format-6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "format-6.json"; sourceTree = "<group>"; };
+		EE439F02200605E300C6D39E /* format-13.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "format-13.json"; sourceTree = "<group>"; };
+		EE439F03200605E400C6D39E /* format-4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "format-4.json"; sourceTree = "<group>"; };
+		EE439F04200605E400C6D39E /* format-9.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "format-9.json"; sourceTree = "<group>"; };
+		EE439F05200605E400C6D39E /* format-7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "format-7.json"; sourceTree = "<group>"; };
+		EE439F06200605E400C6D39E /* format-14.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "format-14.json"; sourceTree = "<group>"; };
+		EE439F07200605E400C6D39E /* format-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "format-1.json"; sourceTree = "<group>"; };
+		EE439F08200605E400C6D39E /* format-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "format-2.json"; sourceTree = "<group>"; };
+		EE439F09200605E400C6D39E /* format-8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "format-8.json"; sourceTree = "<group>"; };
+		EE439F0A200605E400C6D39E /* format-5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "format-5.json"; sourceTree = "<group>"; };
+		EE439F0B200605E400C6D39E /* format-12.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "format-12.json"; sourceTree = "<group>"; };
+		EE439F0C200605E400C6D39E /* format-3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "format-3.json"; sourceTree = "<group>"; };
+		EE439F0D200605E400C6D39E /* format-11.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "format-11.json"; sourceTree = "<group>"; };
+		EE439F0E200605E400C6D39E /* format-15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "format-15.json"; sourceTree = "<group>"; };
+		EE439F1E20060A4D00C6D39E /* BDTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDTableViewCell.h; sourceTree = "<group>"; };
+		EE439F1F20060A4D00C6D39E /* BDTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDTableViewCell.m; sourceTree = "<group>"; };
+		EE439F2120060A7A00C6D39E /* BDModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDModel.h; sourceTree = "<group>"; };
+		EE439F2220060A7A00C6D39E /* BDModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDModel.m; sourceTree = "<group>"; };
+		EE439F242006168600C6D39E /* BDTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BDTableViewCell.xib; sourceTree = "<group>"; };
+		EE44A42420070F9600A7461D /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		EE44A42620070FA300A7461D /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE439EDA2006033600C6D39E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6AD9DF89B1DA701744325F8 /* libPods-BuddyDynamics.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50E89B07CD8B52ED74FCFF84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E0E2729120601B5FC0F0EE2 /* libPods-BuddyDynamics.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAF6CF0072534807182F0DA0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA43D05AC670E5B832F9FB05 /* Pods-BuddyDynamics.debug.xcconfig */,
+				E9D1DA49ACA2F407ECD627CC /* Pods-BuddyDynamics.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE439ED42006033600C6D39E = {
+			isa = PBXGroup;
+			children = (
+				EE439EDF2006033600C6D39E /* BuddyDynamics */,
+				EE439EDE2006033600C6D39E /* Products */,
+				DAF6CF0072534807182F0DA0 /* Pods */,
+				50E89B07CD8B52ED74FCFF84 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE439EDE2006033600C6D39E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE439EDD2006033600C6D39E /* BuddyDynamics.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE439EDF2006033600C6D39E /* BuddyDynamics */ = {
+			isa = PBXGroup;
+			children = (
+				EE439EFB2006038900C6D39E /* Resource */,
+				EE439EF62006034400C6D39E /* Class */,
+			);
+			path = BuddyDynamics;
+			sourceTree = "<group>";
+		};
+		EE439EF62006034400C6D39E /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				EE439EFA2006037700C6D39E /* System */,
+				EE439EF92006037000C6D39E /* View */,
+				EE439EF82006036A00C6D39E /* Model */,
+				EE439EF72006036300C6D39E /* Controller */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		EE439EF72006036300C6D39E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EE439EE32006033600C6D39E /* ViewController.h */,
+				EE439EE42006033600C6D39E /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EE439EF82006036A00C6D39E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE439F2120060A7A00C6D39E /* BDModel.h */,
+				EE439F2220060A7A00C6D39E /* BDModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE439EF92006037000C6D39E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE44A42620070FA300A7461D /* YYFPSLabel.h */,
+				EE44A42420070F9600A7461D /* YYFPSLabel.m */,
+				EE439F1E20060A4D00C6D39E /* BDTableViewCell.h */,
+				EE439F1F20060A4D00C6D39E /* BDTableViewCell.m */,
+				EE439F242006168600C6D39E /* BDTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE439EFA2006037700C6D39E /* System */ = {
+			isa = PBXGroup;
+			children = (
+				EE439EE02006033600C6D39E /* AppDelegate.h */,
+				EE439EE12006033600C6D39E /* AppDelegate.m */,
+				EE439EEF2006033600C6D39E /* main.m */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		EE439EFB2006038900C6D39E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EE439EFF200605C500C6D39E /* Data */,
+				EE439EFE200603B800C6D39E /* plist */,
+				EE439EFD2006039C00C6D39E /* LaunchScreenSB */,
+				EE439EFC2006039100C6D39E /* image */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		EE439EFC2006039100C6D39E /* image */ = {
+			isa = PBXGroup;
+			children = (
+				EE439EE92006033600C6D39E /* Assets.xcassets */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		EE439EFD2006039C00C6D39E /* LaunchScreenSB */ = {
+			isa = PBXGroup;
+			children = (
+				EE439EEB2006033600C6D39E /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreenSB;
+			sourceTree = "<group>";
+		};
+		EE439EFE200603B800C6D39E /* plist */ = {
+			isa = PBXGroup;
+			children = (
+				EE439EEE2006033600C6D39E /* Info.plist */,
+			);
+			path = plist;
+			sourceTree = "<group>";
+		};
+		EE439EFF200605C500C6D39E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EE439F07200605E400C6D39E /* format-1.json */,
+				EE439F08200605E400C6D39E /* format-2.json */,
+				EE439F0C200605E400C6D39E /* format-3.json */,
+				EE439F03200605E400C6D39E /* format-4.json */,
+				EE439F0A200605E400C6D39E /* format-5.json */,
+				EE439F01200605E300C6D39E /* format-6.json */,
+				EE439F05200605E400C6D39E /* format-7.json */,
+				EE439F09200605E400C6D39E /* format-8.json */,
+				EE439F04200605E400C6D39E /* format-9.json */,
+				EE439F00200605E300C6D39E /* format-10.json */,
+				EE439F0D200605E400C6D39E /* format-11.json */,
+				EE439F0B200605E400C6D39E /* format-12.json */,
+				EE439F02200605E300C6D39E /* format-13.json */,
+				EE439F06200605E400C6D39E /* format-14.json */,
+				EE439F0E200605E400C6D39E /* format-15.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE439EDC2006033600C6D39E /* BuddyDynamics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE439EF32006033600C6D39E /* Build configuration list for PBXNativeTarget "BuddyDynamics" */;
+			buildPhases = (
+				33F08CDC7AF35C179B657019 /* [CP] Check Pods Manifest.lock */,
+				EE439ED92006033600C6D39E /* Sources */,
+				EE439EDA2006033600C6D39E /* Frameworks */,
+				EE439EDB2006033600C6D39E /* Resources */,
+				2E46EBE1575A3C1BCC765DA9 /* [CP] Embed Pods Frameworks */,
+				3EE8990672180AB56D516312 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuddyDynamics;
+			productName = BuddyDynamics;
+			productReference = EE439EDD2006033600C6D39E /* BuddyDynamics.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE439ED52006033600C6D39E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = baoqianli;
+				TargetAttributes = {
+					EE439EDC2006033600C6D39E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EE439ED82006033600C6D39E /* Build configuration list for PBXProject "BuddyDynamics" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE439ED42006033600C6D39E;
+			productRefGroup = EE439EDE2006033600C6D39E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE439EDC2006033600C6D39E /* BuddyDynamics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE439EDB2006033600C6D39E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE439EED2006033600C6D39E /* LaunchScreen.storyboard in Resources */,
+				EE439F10200605E500C6D39E /* format-6.json in Resources */,
+				EE439F14200605E500C6D39E /* format-7.json in Resources */,
+				EE439F252006168600C6D39E /* BDTableViewCell.xib in Resources */,
+				EE439F1A200605E500C6D39E /* format-12.json in Resources */,
+				EE439F11200605E500C6D39E /* format-13.json in Resources */,
+				EE439F0F200605E500C6D39E /* format-10.json in Resources */,
+				EE439F15200605E500C6D39E /* format-14.json in Resources */,
+				EE439EEA2006033600C6D39E /* Assets.xcassets in Resources */,
+				EE439F1D200605E500C6D39E /* format-15.json in Resources */,
+				EE439F1B200605E500C6D39E /* format-3.json in Resources */,
+				EE439F19200605E500C6D39E /* format-5.json in Resources */,
+				EE439F12200605E500C6D39E /* format-4.json in Resources */,
+				EE439F16200605E500C6D39E /* format-1.json in Resources */,
+				EE439F17200605E500C6D39E /* format-2.json in Resources */,
+				EE439F13200605E500C6D39E /* format-9.json in Resources */,
+				EE439F1C200605E500C6D39E /* format-11.json in Resources */,
+				EE439F18200605E500C6D39E /* format-8.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E46EBE1575A3C1BCC765DA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BuddyDynamics/Pods-BuddyDynamics-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33F08CDC7AF35C179B657019 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3EE8990672180AB56D516312 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BuddyDynamics/Pods-BuddyDynamics-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE439ED92006033600C6D39E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE44A42520070F9600A7461D /* YYFPSLabel.m in Sources */,
+				EE439EE52006033600C6D39E /* ViewController.m in Sources */,
+				EE439F2020060A4D00C6D39E /* BDTableViewCell.m in Sources */,
+				EE439EF02006033600C6D39E /* main.m in Sources */,
+				EE439F2320060A7A00C6D39E /* BDModel.m in Sources */,
+				EE439EE22006033600C6D39E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE439EEB2006033600C6D39E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE439EEC2006033600C6D39E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE439EF12006033600C6D39E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE439EF22006033600C6D39E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE439EF42006033600C6D39E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA43D05AC670E5B832F9FB05 /* Pods-BuddyDynamics.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VR747BYW76;
+				INFOPLIST_FILE = "$(SRCROOT)/BuddyDynamics/Resource/plist/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baoqianli.BuddyDynamics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE439EF52006033600C6D39E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D1DA49ACA2F407ECD627CC /* Pods-BuddyDynamics.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VR747BYW76;
+				INFOPLIST_FILE = "$(SRCROOT)/BuddyDynamics/Resource/plist/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baoqianli.BuddyDynamics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE439ED82006033600C6D39E /* Build configuration list for PBXProject "BuddyDynamics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE439EF12006033600C6D39E /* Debug */,
+				EE439EF22006033600C6D39E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE439EF32006033600C6D39E /* Build configuration list for PBXNativeTarget "BuddyDynamics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE439EF42006033600C6D39E /* Debug */,
+				EE439EF52006033600C6D39E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE439ED52006033600C6D39E /* Project object */;
+}
