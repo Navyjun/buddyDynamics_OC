@@ -7,6 +7,8 @@
 //
 
 #import "BDTableViewCell.h"
+#import "BDHelper.h"
+#import <YYLabel.h>
 
 @interface BDTableViewCell ()
 @property (weak, nonatomic) IBOutlet UIImageView *authorIcon;
@@ -17,7 +19,7 @@
 @property (weak, nonatomic) IBOutlet UIView *opationHandleView;
 
 @property (nonatomic, strong) UIView *contentImageView;
-@property (strong, nonatomic) UILabel *contentLabel;
+@property (strong, nonatomic) YYLabel *contentLabel;
 @property (nonatomic, strong) NSMutableArray *picsViewArray;
 
 
@@ -30,8 +32,7 @@
     [super awakeFromNib];
     self.selectionStyle = UITableViewCellSelectionStyleNone;
     
-    self.authorIcon.layer.cornerRadius = 25.0;
-    self.authorIcon.clipsToBounds = YES;
+
     CGFloat width = [UIScreen mainScreen].bounds.size.width;
     UIView *topLine = [[UIView alloc] initWithFrame:CGRectMake(0, 0, width, 0.5)];
     topLine.backgroundColor = [UIColor lightGrayColor];
@@ -39,7 +40,11 @@
     bottomLien.backgroundColor = [UIColor lightGrayColor];
     [self.opationHandleView addSubview:topLine];
     [self.opationHandleView addSubview:bottomLien];
+    
+    [self contentLabel];
+    [self contentImageView];
 }
+
 
 - (void)setDataModel:(BDModel *)dataModel{
     _dataModel = dataModel;
@@ -51,11 +56,19 @@
         make.height.mas_equalTo(dataModel.contentH);
     }];
     
-    [self contentImageView];
-    [self layoutPics];
-    [self.authorIcon.layer setImageURL:[NSURL URLWithString:dataModel.bbsAuthor.headImg]];
     
-    self.contentLabel.text = dataModel.content;
+    [self layoutPics];
+    
+    /// 圆角头像
+    [self.authorIcon setImageWithURL:[NSURL URLWithString:dataModel.bbsAuthor.headImg] //profileImageURL
+                                 placeholder:nil
+                                     options:kNilOptions
+                                     manager:[BDHelper avatarImageManager] ///< 圆角头像manager，内置圆角处理
+                                    progress:nil
+                                   transform:nil
+                                  completion:nil];
+    
+    self.contentLabel.attributedText = dataModel.contentAttStr;
     self.authorNameLable.text = dataModel.bbsAuthor.userName;
     self.authorSignLable.text = dataModel.bbsAuthor.signature;
     self.sendTimeLabel.text = dataModel.createDate;
@@ -114,6 +127,7 @@
         self.picsViewArray = [NSMutableArray arrayWithCapacity:9];
         for (NSInteger i = 0; i < 9; i++) {
             UIView *view = [[UIView alloc] init];
+            view.backgroundColor = [UIColor lightTextColor];
             view.contentMode = UIViewContentModeScaleAspectFill;
             view.clipsToBounds = YES;
             [_contentImageView addSubview:view];
@@ -123,9 +137,9 @@
     return _contentImageView;
 }
 
-- (UILabel *)contentLabel{
+- (YYLabel *)contentLabel{
     if (!_contentLabel) {
-        _contentLabel = [[UILabel alloc] init];
+        _contentLabel = [[YYLabel alloc] init];
         _contentLabel.textColor = [UIColor colorWithRed:51/255.0 green:51/255.0 blue:51/255.0 alpha:1];
         _contentLabel.font = [UIFont systemFontOfSize:14.0];
         _contentLabel.numberOfLines = 0;

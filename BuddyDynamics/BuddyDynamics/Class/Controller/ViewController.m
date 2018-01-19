@@ -27,8 +27,8 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    
 }
+
 
 #pragma mark - 初始化
 - (void)setupUI{

@@ -7,7 +7,8 @@
 //
 
 #import "BDModel.h"
-
+#import "BDHelper.h"
+#import <YYKit.h>
 
 @implementation BDModel
 
@@ -31,6 +32,25 @@
 - (void)setContent:(NSString *)content{
     _content = content;
     self.contentH = [self contentHWithStr:content];
+    self.contentAttStr = [self content2AttStr:content];
+}
+
+- (NSAttributedString *)content2AttStr:(NSString *)content{
+    NSMutableAttributedString *attrStr = [[NSMutableAttributedString alloc] initWithString:content attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:contentTitleSize]}];
+    
+    // 话题
+    NSArray *atResults = [[BDHelper regexTopic] matchesInString:content options:kNilOptions range:content.rangeOfAll];
+    for (NSTextCheckingResult *at in atResults) {
+        if (at.range.location == NSNotFound && at.range.length <= 1) {
+            continue;
+        }
+        
+        if ([attrStr attribute:YYTextHighlightAttributeName atIndex:at.range.location] == nil) {
+            [attrStr setColor:[UIColor orangeColor] range:at.range];
+        }
+    }
+    
+    return attrStr;
 }
 
 - (CGFloat)cellHeight{

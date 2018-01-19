@@ -19,6 +19,7 @@ static CGFloat const contentTitleSize = 14.0;
 @interface BDModel : NSObject
 @property (nonatomic, copy) NSString *title;
 @property (nonatomic, copy) NSString *content;  // 内容
+@property (nonatomic, copy) NSAttributedString *contentAttStr;
 @property (nonatomic, copy) NSString *createDate; // 创建时间
 @property (nonatomic, copy) NSString *hotTalk;
 

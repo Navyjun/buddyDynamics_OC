@@ -32,6 +32,7 @@
 		EE439F2320060A7A00C6D39E /* BDModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE439F2220060A7A00C6D39E /* BDModel.m */; };
 		EE439F252006168600C6D39E /* BDTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE439F242006168600C6D39E /* BDTableViewCell.xib */; };
 		EE44A42520070F9600A7461D /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE44A42420070F9600A7461D /* YYFPSLabel.m */; };
+		EE9FD6802011E0B900421066 /* BDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9FD67F2011E0B900421066 /* BDHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +70,8 @@
 		EE439F242006168600C6D39E /* BDTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BDTableViewCell.xib; sourceTree = "<group>"; };
 		EE44A42420070F9600A7461D /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
 		EE44A42620070FA300A7461D /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		EE9FD67E2011E0B900421066 /* BDHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDHelper.h; sourceTree = "<group>"; };
+		EE9FD67F2011E0B900421066 /* BDHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,9 +134,10 @@
 			isa = PBXGroup;
 			children = (
 				EE439EFA2006037700C6D39E /* System */,
-				EE439EF92006037000C6D39E /* View */,
-				EE439EF82006036A00C6D39E /* Model */,
 				EE439EF72006036300C6D39E /* Controller */,
+				EE439EF82006036A00C6D39E /* Model */,
+				EE439EF92006037000C6D39E /* View */,
+				EE9FD67D2011E08100421066 /* Helper */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -159,8 +163,6 @@
 		EE439EF92006037000C6D39E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				EE44A42620070FA300A7461D /* YYFPSLabel.h */,
-				EE44A42420070F9600A7461D /* YYFPSLabel.m */,
 				EE439F1E20060A4D00C6D39E /* BDTableViewCell.h */,
 				EE439F1F20060A4D00C6D39E /* BDTableViewCell.m */,
 				EE439F242006168600C6D39E /* BDTableViewCell.xib */,
@@ -233,6 +235,17 @@
 				EE439F0E200605E400C6D39E /* format-15.json */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		EE9FD67D2011E08100421066 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EE44A42620070FA300A7461D /* YYFPSLabel.h */,
+				EE44A42420070F9600A7461D /* YYFPSLabel.m */,
+				EE9FD67E2011E0B900421066 /* BDHelper.h */,
+				EE9FD67F2011E0B900421066 /* BDHelper.m */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -373,6 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE44A42520070F9600A7461D /* YYFPSLabel.m in Sources */,
+				EE9FD6802011E0B900421066 /* BDHelper.m in Sources */,
 				EE439EE52006033600C6D39E /* ViewController.m in Sources */,
 				EE439F2020060A4D00C6D39E /* BDTableViewCell.m in Sources */,
 				EE439EF02006033600C6D39E /* main.m in Sources */,
